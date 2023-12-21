@@ -1,0 +1,76 @@
+body {
+    background-color: antiquewhite;
+    color: rgb(190, 47, 47);
+    font-family: "Comic Sans MS", Georgia, Times, "Times New Roman", serif;
+    position: absolute;
+
+}
+
+img {
+    border: 2px solid black;
+    padding: 2px;
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerme {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    white-space: nowrap;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ol {
+    background-color: rgb(24, 24, 83);
+    color: white;
+}
+
+.common {
+    position: absolute;
+    display: block;
+}
+
+.footer {
+    z-index: 1;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    text-align: center;
+    background-color: rgb(24, 24, 83);
+}
+
+.header {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 15px;
+    width: 100%;
+
+}
+
+.mainbody {
+    top: 50px;
+
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.footer a {
+    color: gainsboro;
+}
